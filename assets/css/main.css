@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+#cf_alert_div {
+    opacity: 0.01 !important;
+}
+
 blockquote, q {
 	quotes: none;
 }
