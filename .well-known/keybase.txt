@@ -54,3 +54,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/snuggle
 
 ==================================================================
+==================================================================
+https://keybase.io/snuggle
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://snuggle.link
+  * I am snuggle (https://keybase.io/snuggle) on keybase.
+  * I have a public key ASA7gjfSCzUGVKaUw7ebON8bc0ZiJztwEmz4kOQ_n_tfSgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a64c0177a669c8239a0ffeb23ced538a647738183f6d903ce4eda045132d1f140a",
+      "host": "keybase.io",
+      "kid": "01203b8237d20b350654a694c3b79b38df1b734662273b70126cf890e43f9ffb5f4a0a",
+      "uid": "3fa0eaf00fd29b97102652d9b9500219",
+      "username": "snuggle"
+    },
+    "merkle_root": {
+      "ctime": 1587552169,
+      "hash": "c50727f1885c4137625ca10b109af3e2bc242ac3fc1165e8940a4494d40d1b9c55b893e53cd71b04a40b84f45fbfbd1e0dae6617b55a8fc00a0d6c14083f83bb",
+      "hash_meta": "da7e4eaebf9e8d2b91f1379d5f11e752ad64fd5530eebb3ee91b0265bed9484a",
+      "seqno": 16010701
+    },
+    "service": {
+      "entropy": "ajZn38wZPrdwIQOXCXD9Gxcy",
+      "hostname": "snuggle.link",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587552173,
+  "expire_in": 504576000,
+  "prev": "4d8d326ad5ac7983b6b6c07b0818c2e6b0d9b1d0da537d5017213896bba1f15b",
+  "seqno": 106,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgO4I30gs1BlSmlMO3mzjfG3NGYic7cBJs+JDkP5/7X0oKp3BheWxvYWTESpcCasQgTY0yatWseYO2tsB7CBjC5rDZsdDaU31QFyE4lruh8VvEIDKSl/8r+ena6x9w6MRMSYDHcnlO0ZG2KbCVqtf9qmTZAgHCo3NpZ8RA+Ow8rjh3ruS9/PMWzt85cJNC+MQ6oeTBGpI5HRlKzU4xvtKve5wmc9GIIgbm6tx82tqsFbBlcbNB1z4zarORAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMTdZv9STjkMZNlCqG5TN43rVCp8E4cx26/CAasTZX7no3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/snuggle
+
+==================================================================
