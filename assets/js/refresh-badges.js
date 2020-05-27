@@ -108,11 +108,11 @@ var netdata_update_every = 5;
 var netdata_live_callback = function(secs, count) {
 	document.body.style.opacity = 1;
 	if(count)
-			document.getElementById("pageliveinfo").innerHTML =  "This page is using live data from Hug Server — updated <b>" + count + "</b> statistics! 🎉";
+		document.getElementById("pageliveinfo").innerHTML =  "This is using live data from Hug Server — just now refreshed <b>" + count + "</b> statistics! 🎉";
 	else if(secs < (netdata_update_every/2))
-		document.getElementById("pageliveinfo").innerHTML =  "This page is using live data from Hug Server — will be updated in <b>" + secs + "</b> seconds... ⌛";
+		document.getElementById("pageliveinfo").innerHTML =  "This is using live data from Hug Server — will be updated in <b>" + secs + "</b> seconds... ⌛";
 	else
-			document.getElementById("pageliveinfo").innerHTML =  "This page is using live data from Hug Server — will be updated in <b>" + secs + "</b> seconds... ⏳";
+		document.getElementById("pageliveinfo").innerHTML =  "This is using live data from Hug Server — will be updated in <b>" + secs + "</b> seconds... ⏳";
 };
 
 // show that we paused refreshes

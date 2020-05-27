@@ -1,0 +1,28 @@
+@media screen and (max-width: 1280px) {
+
+	.hug-statistics {
+		display: block;
+		width: 30em;
+		max-width: 100%;
+		margin: 0 auto 2em auto;
+	}
+
+		.hug-statistics li:first-child {
+			border-bottom-left-radius: 0;
+			border-top-right-radius: 8px;
+		}
+
+		.hug-statistics li:last-child {
+			border-top-right-radius: 0;
+			border-bottom-left-radius: 8px;
+		}
+
+		.hug-statistics li .icon:before {
+			font-size: 3.75rem;
+		}
+
+		.hug-statistics li strong, .hug-statistics li b {
+			font-size: 2.5em;
+		}
+
+}

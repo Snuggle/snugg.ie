@@ -30,6 +30,7 @@
 		<meta property="og:image:alt" content="Evie Snuggle's current avatar!">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/snuggie.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 	</head>
 	<body class="is-preload">
@@ -49,36 +50,45 @@
 						<!-- Content -->
 							<section id="content" class="main">
 								<span class="image main"><img src="images/hug-1.jpg" alt=""></span>
+								<header class="major special">
 								<h2>Hug Server</h2>
+								</header>
+								<h2>About 'n' Stuff</h2>
 								<p>A blog should go here. I'm sorry, but the blog hasn't been created yet! Please come back later.</p>
-								<div id="pageliveinfo">Please wait... loading...</div>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-microchip"></span>
-										<strong>32x</strong> Threads
-										<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=system.cpu&label=CPU Load:&value_color=efa8b0&label_color=efa8b0">
-									</li>
-									<li class="style2">
-										<span class="icon solid fa-tachometer-alt"></span>
-										<strong>3.4 GHz</strong>2x Xeon E5-2640v3
-										<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=cpu.cpufreq&dimensions=cpu0&label=CPU Freq:&value_color=c79cc8&label_color=c79cc8">
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-memory"></span>
-										<strong>48 GB</strong> DDR4 ECC Memory
-										<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=mem.available&alarm=ram_available&label=Memory Available:&value_color=a89cc8&label_color=a89cc8">
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-hdd"></span>
-										<strong>12x</strong> Hotswap Bays
-										<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=disk_util.sda&alarm=10min_disk_utilization&label=Disk Used:&value_color=9bb2e1&label_color=9bb2e1">
-									</li>
-									<li class="style5">
-										<span class="icon solid fa-dove"></span>
-										<strong>Low</strong> Ping Time
-										<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=httpcheck_snugg-ie.response_time&label=Page Response Time:&value_color=8cc9f0&label_color=8cc9f0">
-									</li>
-								</ul>
+								<hr>
+								<section id="second" class="main special">
+									<h2>Live Statistics</h2>
+									<div id="pageliveinfo"><p>Please wait... loading...</p></div>
+									</header>
+									<ul class="statistics hug-statistics">
+										<li class="style1">
+											<span class="icon solid fa-microchip"></span>
+											<strong>32x</strong> Threads
+											<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=system.cpu&label=CPU Load:&value_color=efa8b0&label_color=efa8b0">
+										</li>
+										<li class="style2">
+											<span class="icon solid fa-tachometer-alt"></span>
+											<strong>3.4 GHz</strong>2x Xeon E5-2640v3
+											<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=cpu.cpufreq&dimensions=cpu0&label=CPU Freq:&value_color=c79cc8&label_color=c79cc8">
+										</li>
+										<li class="style3">
+											<span class="icon solid fa-memory"></span>
+											<strong>48 GB</strong> DDR4 ECC Memory
+											<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=mem.available&divide=1000&units=GB&label=Memory Available:&value_color=a89cc8&label_color=a89cc8">
+										</li>
+										<li class="style4">
+											<span class="icon solid fa-hdd"></span>
+											<strong>12x</strong> Hotswap Bays
+											<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=cgroup_qemu_homesweet.throttle_io&divide=1000&units=MiB/s&label=Disk Usage:&options=abs&value_color=9bb2e1&label_color=9bb2e1">
+										</li>
+										<li class="style5">
+											<span class="icon solid fa-dove"></span>
+											<strong>Low</strong> Response Time
+											<br><img src="https://hug.snugg.ie/dashboard/api/v1/badge.svg?chart=httpcheck_snugg-ie.response_time&label=Page Response Time:&value_color=8cc9f0&label_color=8cc9f0">
+										</li>
+									</ul>
+								</section>
+								<hr>
 								<h2>Darn. How do I get back? D:</h2>
 								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat...</p>
 								<p>Oh, wait. We don't need a magical spell for this. Just click the button below!</p>
