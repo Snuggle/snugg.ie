@@ -26,3 +26,9 @@
 		}
 
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+	.hug-statistics {
+		margin: 0 auto 0em -2.5em;
+	}
+}
