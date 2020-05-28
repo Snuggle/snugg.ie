@@ -117,6 +117,5 @@ var netdata_live_callback = function(secs, count) {
 
 // show that we paused refreshes
 var netdata_paused_callback = function() {
-	document.body.style.opacity = 0.5;
-	document.getElementById("pageliveinfo").innerHTML =  "This page is using live data from Hug Server — Refreshing paused! This page is not in focus.";
+	document.getElementById("pageliveinfo").innerHTML =  "This page is using live data from Hug Server — <b>Refreshing paused!</b> This page is not in focus. ⏸️";
 };
