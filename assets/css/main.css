@@ -3233,11 +3233,11 @@ input, select, textarea {
 					font-size: 1em;
 					letter-spacing: 0;
 				}
-
+					/*
 					#header p br {
 						display: none;
 					}
-
+					*/
 				#header.alt {
 					padding: 4em 2em 1em 2em ;
 				}
