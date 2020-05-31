@@ -32,3 +32,70 @@
 		margin: 0 auto 0em -2.5em;
 	}
 }
+
+
+/*body.force-theme-light {
+	background-color: #640032;
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #330000 15%, #640032 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #330000 15%, #640032 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #330000 15%, #640032 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #330000 15%, #640032 85%);
+}*/
+
+#nav.force-theme-dark {
+	background-color: #7b1347;
+	color: lightgrey;
+}
+
+#main.force-theme-dark {
+	background-color: #69153f;
+	color: lightgrey;
+}
+
+#main.force-theme-dark .button {
+	color: white !important;
+}
+
+
+#main.force-theme-dark h2 {
+	color: lightgrey !important;
+}
+
+#main.force-theme-dark > .main {
+	border-top: solid 1px #96004c;
+}
+
+#nav.force-theme-dark ul li a.active {
+	color: black !important;
+}
+
+
+.toggle-theme-light {
+  display: none;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  min-width: 0em;
+}
+
+.toggle-theme-dark {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  min-width: 0em;
+}
+
+body.force-theme-dark .toggle-theme-light {
+  display: inline-block !important;
+  }
+body.force-theme-dark .toggle-theme-dark {
+  display: none !important;
+}
+
+body.force-theme-light .toggle-theme-light {
+  display: none !important;
+}
+
+body.force-theme-light .toggle-theme-dark {
+  display: inline-block !important;
+}

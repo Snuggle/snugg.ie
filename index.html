@@ -34,9 +34,15 @@
 		<link rel="preload" href="assets/css/source_sans_pro.css" as="style" crossorigin="anonymous">
 		<link rel="preload" href="assets/webfonts/Google-SourceSansPro-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/snuggie.css">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload ">
+		<span class="toggle-themes hidden-phone">
+								<a onClick="toggle_theme('light')" class="button uno toggle-theme-light"><i class="fas fa-moon"></i><span class="hidden-phone"><noscript>(JS required)</noscript></span></a>
+								<a onClick="toggle_theme('dark')" class="button uno toggle-theme-dark"><i class="fas fa-cloud-sun"></i><span class="hidden-phone"><noscript>(JS required)</noscript></span></a>
+							</span>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -52,7 +58,7 @@
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" >
 						<ul>
 							<li><a href="#who" class="active">Who are you?</a></li>
 							<li><a href="#what">What do you do?</a></li>
@@ -61,7 +67,7 @@
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
+					<div id="main" >
 
 						<!-- Introduction -->
 							<section id="who" class="main">
@@ -130,6 +136,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/theme.js"></script>
+
 
 	</body>
 </html>
