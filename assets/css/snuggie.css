@@ -69,24 +69,37 @@ body.force-theme-dark {
 	border-top: solid 1px #96004c;
 }
 
+#main.force-theme-dark b {
+	color: white;
+}
+
 #nav.force-theme-dark ul li a.active {
 	color: black !important;
 }
 
-
 .toggle-theme-light {
   display: none;
-  position: fixed;
+  position: absolute;
   right: 1%;
   top: 1%;
   min-width: 0em;
 }
 
 .toggle-theme-dark {
-  position: fixed;
+  position: absolute;
   right: 1%;
   top: 1%;
   min-width: 0em;
+}
+
+@media screen and (min-width: 1680px) {
+	.toggle-theme-light {
+	  position: fixed;
+	}
+
+	.toggle-theme-dark {
+	  position: fixed;
+	}
 }
 
 body.force-theme-dark .toggle-theme-light {
