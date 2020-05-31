@@ -30,9 +30,14 @@
 		<meta property="og:image:alt" content="Evie Snuggle's current avatar!">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/snuggie.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 	</head>
 	<body class="is-preload">
+		<span class="toggle-themes hidden-phone">
+			<a onClick="toggle_theme('light')" class="button uno toggle-theme-light"><i class="fas fa-moon"></i><span class="hidden-phone"><noscript>(JS required)</noscript></span></a>
+			<a onClick="toggle_theme('dark')" class="button uno toggle-theme-dark"><i class="fas fa-cloud-sun"></i><span class="hidden-phone"><noscript>(JS required)</noscript></span></a>
+		</span>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -117,6 +122,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/theme.js"></script>
 	</body>
 </html>
