@@ -4,8 +4,15 @@ function set_theme() {
     document.querySelector('body').classList.add('force-theme-'+localStorage['theme']);
     if(document.getElementById("nav")){
     document.getElementById('nav').classList.add('force-theme-'+localStorage['theme']);
+	}}
+
+	if (localStorage['theme'] === 'dark') {
+		document.getElementById('avatar').src='images/vamp_snuggle_quarter_size.png'
+	} else {
+		document.getElementById('avatar').src='images/snuggle_quarter_size.png'
 	}
-  }
+
+
 }
 
 function reset_theme() {
