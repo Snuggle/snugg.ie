@@ -1,3 +1,5 @@
+/* Make hug-server statistics responsive */
+
 @media screen and (max-width: 1280px) {
 
 	.hug-statistics {
@@ -33,13 +35,14 @@
 	}
 }
 
+/* Dark theme theming rules */
 
 body.force-theme-dark {
 	background-color: #640032;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #8a3942 15%, #640032 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #8a3942 15%, #640032 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #8a3942 15%, #640032 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #8a3942 15%, #640032 85%);
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #230313 15%, #640032 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #230313 15%, #640032 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #230313 15%, #640032 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #230313 15%, #640032 85%);
 }
 
 #nav.force-theme-dark {
@@ -52,15 +55,20 @@ body.force-theme-dark {
 	color: lightgrey;
 }
 
+#main.force-theme-dark .button.primary {
+	background-color: #a5125b !important;
+}
+
 #main.force-theme-dark .button {
 	color: white !important;
 }
 
-#main.force-theme-dark h1 {
+
+body.force-theme-dark h1 {
 	color: lightgrey !important;
 }
 
-#main.force-theme-dark h2 {
+body.force-theme-dark h2 {
 	color: lightgrey !important;
 }
 
@@ -77,22 +85,24 @@ body.force-theme-dark {
 	color: black !important;
 }
 
+/* Toggle theme buttons */
+
 .toggle-theme-light {
   display: none;
   position: absolute;
   right: 1%;
   top: 1%;
-  min-width: 0em;
+  min-width: 4.5em;
 }
 
 .toggle-theme-dark {
   position: absolute;
   right: 1%;
   top: 1%;
-  min-width: 0em;
+  min-width: 4.5em;
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1700px) {
 	.toggle-theme-light {
 	  position: fixed;
 	}
