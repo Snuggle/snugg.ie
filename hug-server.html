@@ -49,6 +49,17 @@
 						<p>What is <a href="/">snugg.ie</a> running on?</p>
 					</header>
 
+					<!-- Nav -->
+						<nav id="nav" >
+							<ul>
+								<li><a href="#content" class="active">About 'n' Stuff</a></li>
+								<li><a href="#chassis">Chassis & Motherboard</a></li>
+								<li><a href="#cpu">CPU & Memory</a></li>
+								<li><a href="#assembly">Assembly</a></li>
+								<li><a href="#software">Software</a></li>
+							</ul>
+						</nav>
+
 				<!-- Main -->
 					<div id="main">
 
@@ -62,7 +73,7 @@
 								<p>Hello! Let me tell you the tale of my dabblings with home servers or '<a href="https://reddit.com/r/homelab">Homelab</a>' equipment.</p><p>So as a tech nerd, I loved hosting little services and such to make my life easier. From things like <a href="https://nextcloud.com">Nextcloud</a>, as a cloud storage replacement for something like <a href="https://drive.google.com">Google Drive</a>, to a personal VPN with <a href="https://wireguard.com">Wireguard</a>, my requirements ended up expanding to the point where I was spending up to £35/month on a rented VPS.</p>
 								<p>This couldn't continue! Things were getting too expensive and I didn't like keeping my <a href="https://simple.wikipedia.org/wiki/Network-attached_storage">NAS</a> storage in the cloud — it was slow.<br>Enter... Hug Server.</p>
 								<hr>
-								<section id="second" class="special">
+								<section id="statistics" class="special">
 									<h2>Live Statistics</h2>
 									<div id="pageliveinfo"><p>Please wait... loading...</p></div>
 									</header>
@@ -97,21 +108,38 @@
 								<hr>
 								<h2>And so it begins...</h2>
 								<h3>Chassis & Motherboard</h3>
-								<section id="third" class="double-image">
+								<section id="chassis" class="double-image">
 								<p><span class="image right"><a href="images/hug/original.jpeg"><img src="images/hug/original.jpeg" alt=""></a></span>I had ended up wandering upon an EBay listing for a Sandy Bridge server with listed for only £70!<br><br>This was awesome, it had an 8-thread <a href="https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html">Intel Xeon E3-1240</a> CPU plus an <a href="https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html">Intel S1200BTL</a> motherboard. The most important part for me though, was the <a href="https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html">Ri-Vier RVS2-06A</a> chassis with <strong>included rails</strong> and a 12-bay hotswappable SAS/SATA backplane. Yay! This would be perfect for building a custom server in as there are no OEM or proprietary parts - I could fit any components I'd like and there were no weird form factors that I would have to meet. It even used a standard PSU.</p>
 
 								<p><span class="image left"><a href="images/hug/motherboard.jpeg"><img src="images/hug/motherboard.jpeg" alt=""></a></span>The next part came along when I saw a motherboard that should've been worth about £500 at the time, which I bought for only £87. The ASUS Z10PE-D8 WS, a Haswell semi-workstation/server board with seven x16 PCIe lanes. It was so affordable because it 'had a bent CPU2 socket pin' and the seller wasn't sure if the second socket would still work, as they only had one CPU to test with.<span class="image right"><a href="images/hug/ebay.png"><img src="images/hug/ebay.png" alt=""></a></span></p>
 							</section>
-							<section id="fourth" class="double-image">
+							<section id="cpu" class="double-image">
 
-								<h3>CPU's and Memory</h3>
+								<h3>CPU and Memory</h3>
 								<p><span class="image right"><a href="images/hug/cpu.png"><img src="images/hug/cpu.png" alt=""></a></span>As very few people actually have Haswell motherboards, the CPUs sell for relatively cheap! I managed to purchase two <a href="https://ark.intel.com/content/www/us/en/ark/products/83356/intel-xeon-processor-e5-2630-v3-20m-cache-2-40-ghz.html">Intel Xeon E5-2630 v3's</a> for £30/ea, giving me a total of <strong>32 threads</strong> at 2.4–3.2 GHz for £60.</p>
 								<p>I also didn't have too much issue finding memory. I found three 16 GB sticks of DDR4 RDIMM ECC for £20/ea (All prices including shipping) which would give me a total of <strong>48 GB</strong> which I could easily expand up to 128 GB.
 							</section>
-							<section id="fifth" class="double-image">
+							<section id="assembly">
 								<h3>Assembly</h3>
-								<p><span class="image left"><a href="images/hug/motherboard_built.jpg"><img src="images/hug/motherboard_built.jpg" alt=""></a></span>All that was left was to put everything together!</p>
+								<div class="row gtr-uniform">
+									<div class="col-6"><span class="image fit"><img src="images/hug/motherboard_built.jpg" alt=""></span></div>
+									<div class="col-6"><span class="image fit"><img src="images/hug/server_inside.png" alt=""></span></div>
+								</div>
+								<br>
+								<p>All that was left was to put everything together! Pop the two processors in their socket, install the memory and we're off to the races! There actually wasn't any issue with bent CPU pins, everything worked pretty much out of the box. This motherboard also supports IPMI with an addin-module.</p>
+								<p>The motherboard was an extremely tight fit, as it is designed to the EEB specification, whereas this chassis was designed for a CEB motherboard. This wasn't too much of an issue, I just put in as many standoffs as I could and also added some cork spacers underneath for extra support. It <italic>just about</italic> fit with barely a millimetre of clearance. After this, I purchased two <a href="https://store.supermicro.com/2u-active-cpu-cooler-snk-p0048ap4.html">Supermicro SMH SNK-P0048AP4</a> heatsinks since I needed some fans in this chassis and then closed it up!</p>
+								<div class="box alt">
+								<div class="row gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/hug/heatsinky.jpg" alt=""></span></div>
+									<div class="col-12"><span class="image fit"><img src="images/hug/final.png" alt=""></span></div>
+								</div>
+							</div>
 							</section>
+								<section id="software">
+									<h2>Software 'n' Such</h2>
+									<p>aaahhh</p>
+							</section>
+
 
 								<blockquote class="reddit-card" data-card-preview="0"><a href="https://www.reddit.com/r/homelab/comments/feiq4j/my_first_little_server_build/">My first little server build</a> from <a href="http://www.reddit.com/r/homelab">r/homelab</a></blockquote>
 								<script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>

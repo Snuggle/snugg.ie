@@ -38,7 +38,11 @@
 /* Hug Server Blog */
 
 .double-image {
-	margin: auto auto 9em auto;
+	margin: auto auto 7.5em auto;
+}
+
+#emb_i1g5en {
+	background-color: RGBA(255,255,255,0.2);
 }
 
 /* Dark theme theming rules */
@@ -78,12 +82,20 @@ body.force-theme-dark h2 {
 	color: lightgrey !important;
 }
 
+body.force-theme-dark h3 {
+	color: lightgrey !important;
+}
+
 
 #main.force-theme-dark > .main {
 	border-top: solid 1px #96004c;
 }
 
 #main.force-theme-dark b {
+	color: white;
+}
+
+#main.force-theme-dark strong {
 	color: white;
 }
 
