@@ -35,6 +35,12 @@
 	}
 }
 
+/* Hug Server Blog */
+
+.double-image {
+	margin: auto auto 9em auto;
+}
+
 /* Dark theme theming rules */
 
 body.force-theme-dark {
