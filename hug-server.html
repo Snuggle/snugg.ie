@@ -21,14 +21,14 @@
 		<meta property="og:locale" content="en_GB">
 		<meta property="og:locale:alternate" content="en_US">
 		<meta property="og:locale:alternate" content="es_ES">
-		<meta property="og:site_name" content="snugg.ie">
-		<meta property="og:title" content="Hug Server!">
-		<meta property="og:description" content="Have a peek at the Hug server running all of Evie's things!">
+		<meta property="og:site_name" content="snugg.ie ✨">
+		<meta property="og:title" content="Hug Server 🖥">
+		<meta property="og:description" content="Have a peek at the Hug server running all of Evie's things! 👀">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="500">
 		<meta property="og:image:height" content="500">
 		<meta property="og:image:alt" content="Evie Snuggle's current avatar!">
-		<meta name="description" content="Have a peek at the Hug server running all of Evie's things!">
+		<meta name="description" content="Have a peek at the Hug server running all of Evie's things! 👀">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/snuggie.css">
@@ -116,7 +116,7 @@
 							<section id="cpu" class="double-image">
 
 								<h3>CPU and Memory</h3>
-								<p><span class="image right"><a href="images/hug/cpu.png"><img src="images/hug/cpu.png" alt=""></a></span>As very few people actually have Haswell motherboards, the CPUs sell for relatively cheap! I managed to purchase two <a href="https://ark.intel.com/content/www/us/en/ark/products/83356/intel-xeon-processor-e5-2630-v3-20m-cache-2-40-ghz.html">Intel Xeon E5-2630 v3's</a> for £30/ea, giving me a total of <strong>32 threads</strong> at 2.4–3.2 GHz for £60.</p>
+								<p><span class="image right"><a href="images/hug/cpu.png"><img src="images/hug/cpu.png" alt=""></a></span>As very few people actually have Haswell server motherboards, the CPUs sell for relatively cheap! I managed to purchase two <a href="https://ark.intel.com/content/www/us/en/ark/products/83356/intel-xeon-processor-e5-2630-v3-20m-cache-2-40-ghz.html">Intel Xeon E5-2630 v3's</a> for £30/ea, giving me a total of <strong>32 threads</strong> at 2.4–3.2 GHz for £60.</p>
 								<p>I also didn't have too much issue finding memory. I found three 16 GB sticks of DDR4 RDIMM ECC for £20/ea (All prices including shipping) which would give me a total of <strong>48 GB</strong> which I could easily expand up to 128 GB.
 							</section>
 							<section id="assembly">
@@ -127,7 +127,7 @@
 								</div>
 								<br>
 								<p>All that was left was to put everything together! Pop the two processors in their socket, install the memory and we're off to the races! There actually wasn't any issue with bent CPU pins, everything worked pretty much out of the box. This motherboard also supports IPMI with an addin-module.</p>
-								<p>The motherboard was an extremely tight fit, as it is designed to the EEB specification, whereas this chassis was designed for a CEB motherboard. This wasn't too much of an issue, I just put in as many standoffs as I could and also added some cork spacers underneath for extra support. It <italic>just about</italic> fit with barely a millimetre of clearance. After this, I purchased two <a href="https://store.supermicro.com/2u-active-cpu-cooler-snk-p0048ap4.html">Supermicro SMH SNK-P0048AP4</a> heatsinks since I needed some fans in this chassis and then closed it up!</p>
+								<p>The motherboard was an extremely tight fit, as it is designed to the EEB specification, whereas this chassis was designed for a CEB motherboard. This wasn't too much of an issue, I just put in as many standoffs as I could and also added some cork spacers underneath for extra support. It just about fit with barely a millimetre of clearance. After this, I purchased two <a href="https://store.supermicro.com/2u-active-cpu-cooler-snk-p0048ap4.html">Supermicro SMH SNK-P0048AP4</a> heatsinks since I needed some fans in this chassis and then closed it up!</p>
 								<div class="box alt">
 								<div class="row gtr-uniform">
 									<div class="col-12"><span class="image fit"><img src="images/hug/heatsinky.jpg" alt=""></span></div>
@@ -137,10 +137,27 @@
 							</section>
 								<section id="software">
 									<h2>Software 'n' Such</h2>
-									<p>aaahhh</p>
+									<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/hug/neofetch.png" alt=""></span></div>
+									</div>
+								</div>
+									<p>For this server, I would like to be able to virtualise and/or containerize many different services. I had a few choices here! I could use something popular like Proxmox or VMWare's ESXi, but this would be entirely for personal use and I would also like my web dashboards to look aesthetically pleasing.</p>
+									<p>I am familiar with Fedora, as I use both Fedora and MacOS on my personal devices, and there is a web dashboard known as Cockpit which is included by default with Fedora server, but I would prefer a more stable release cycle for updates. This is why I'd chose Red Hat Enterprise Linux for my host OS and then I could use Cockpit's QEMU/KVM module plus some command-line to manage all of my virtual machines! (Plus Cockpit's Podman for Docker containers)</p>
+									<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-12"><span class="image fit"><img src="images/hug/cockpit.png" alt=""></span></div>
+									</div>
+								</div>
+								<h3>What things are you running?</h3>
+								<h4>Logical Topology Diagram</h4>
+								<embed class="centre" src="images/hug/logical_topology.svg"></embed>
+								<h4>Physical Topology Diagram</h4>
+								<embed class="centre" src="images/hug/physical_topology.svg"></embed>
 							</section>
 
-
+<hr>
+<h2>A Relevant Reddit Post Appears!</h2>
 								<blockquote class="reddit-card" data-card-preview="0"><a href="https://www.reddit.com/r/homelab/comments/feiq4j/my_first_little_server_build/">My first little server build</a> from <a href="http://www.reddit.com/r/homelab">r/homelab</a></blockquote>
 								<script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
 							</section>
