@@ -51,6 +51,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+	text-align: center;
 }
 
 /* Dark theme theming rules */
@@ -65,12 +66,20 @@ body.force-theme-dark {
 
 #nav.force-theme-dark {
 	background-color: #7b1347;
-	color: lightgrey;
+	color: LavenderBlush;
+}
+
+#nav.force-theme-dark a:hover {
+	color: white;
 }
 
 #main.force-theme-dark {
 	background-color: #69153f;
-	color: lightgrey;
+	color: LavenderBlush;
+}
+
+#main.force-theme-dark a:hover {
+	color: white;
 }
 
 #main.force-theme-dark .button.primary {
@@ -83,17 +92,20 @@ body.force-theme-dark {
 
 
 body.force-theme-dark h1 {
-	color: lightgrey !important;
+	color: LavenderBlush !important;
 }
 
 body.force-theme-dark h2 {
-	color: lightgrey !important;
+	color: LavenderBlush !important;
 }
 
 body.force-theme-dark h3 {
-	color: lightgrey !important;
+	color: LavenderBlush !important;
 }
 
+body.force-theme-dark h4 {
+	color: LavenderBlush !important;
+}
 
 #main.force-theme-dark > .main {
 	border-top: solid 1px #96004c;
@@ -151,4 +163,154 @@ body.force-theme-light .toggle-theme-light {
 
 body.force-theme-light .toggle-theme-dark {
   display: inline-block !important;
+}
+
+
+@media screen and (max-width: 980px) {
+	.short-icons {
+		margin: 0 0 -2em 0;
+	}
+
+	#invisible-header {
+		display: none;
+	}
+}
+
+/* Tooltip container */
+.tooltip {
+ position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+ visibility: hidden;
+ /*width: 10vw;*/
+ background-color: #a5125b;
+ color: LavenderBlush;
+ text-align: center;
+ padding: 5px 5px;
+ border-radius: 6px;
+
+ /* Position the tooltip text */
+ position: absolute;
+ z-index: 1;
+ bottom: 125%;
+ left: 50%;
+ margin-left: -60px;
+
+ /* Fade in tooltip */
+ opacity: 0;
+ transition: opacity 0.3s;
+ transition-delay: 0.5s;
+ transition-timing-function: ease-in;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #a5125b transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+ visibility: visible;
+ opacity: 1;
+}
+
+
+.attribution {
+	position: static;
+	padding-left:1%;
+	padding-bottom:0.8%;
+	font-size: 1.5vh !important;
+	opacity: 0.5;
+}
+
+/* Fancy underline */
+.icon {
+	background-image: none;
+}
+
+#nav ul li a {
+	background-image: none;
+}
+
+.button {
+	background-image: none;
+}
+
+#main.force-theme-dark a {
+	--line: RGBA(255, 255, 255, 0.5);
+}
+
+#main a {
+	--line: RGBA(165, 18, 91, 0.5);
+	border-bottom: none;
+}
+
+a {
+	--line: RGBA(255, 255, 255, 0.5);
+	border-bottom: none;
+}
+
+a svg {
+	background-image: none;
+}
+
+a {
+	background-image: linear-gradient(0deg, var(--line) 0%, var(--line) 100%);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: var(--background-size, 100%) 1px;
+	transition: background-size 0.2s linear var(--background-delay, 0.15s);
+	line-height: 20px;
+	transform: translateZ(0);
+}
+
+a svg {
+	opacity: 50%;
+	vertical-align: top;
+	display: inline;
+	line-height: 1;
+	width: 13px;
+	height: 20px;
+	position: relative;
+	left: -2px;
+	top: 0.3em;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1px;
+	stroke: var(--line);
+	stroke-dasharray: 7.95 30;
+	stroke-dashoffset: var(--stroke-dashoffset, 46);
+	transition: stroke-dashoffset var(--stroke-duration, 0.15s) var(--stroke-easing, linear) var(--stroke-delay, 0s);
+}
+
+a:hover {
+	--background-size: 0%;
+	--background-delay: 0s;
+	--stroke-dashoffset: 26;
+	--stroke-duration: .3s;
+	--stroke-easing: cubic-bezier(0.3, 1.5, 0.5, 1);
+	--stroke-delay: .195s;
+}
+
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
 }
