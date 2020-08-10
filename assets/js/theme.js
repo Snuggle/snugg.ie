@@ -9,7 +9,7 @@ function set_theme() {
 	if (localStorage['theme'] === 'dark') {
 		document.getElementById('avatar').src='images/vamp_snuggle_quarter_size.png'
 	} else {
-		document.getElementById('avatar').src='images/snuggle_quarter_size.png'
+		document.getElementById('avatar').src='https://github.com/Snuggle.png'
 	}
 
 
