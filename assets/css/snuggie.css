@@ -233,7 +233,7 @@ body.force-theme-light .toggle-theme-dark {
 }
 
 /* Fancy underline */
-.icon {
+/*.icon {
 	background-image: none;
 }
 
@@ -314,3 +314,4 @@ html {
 *:before, *:after {
 	box-sizing: inherit;
 }
+*/
