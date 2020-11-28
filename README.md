@@ -4,8 +4,8 @@ Oh, hello! This is just the source-code for my personal website. It might be int
 
 ### [🔍 Let's have a look!](https://snugg.ie)
 
-# What is this based upon?
-I'm using a HTML5 template that I absolutely love called 'Stellar'. I've edited many of the styles and the overall colour scheme, so it may not look entirely the same anymore.
+# 🏗 What is this based upon?
+I'm using a HTML5 template that I absolutely love called 'Stellar' ☄. I've edited many of the styles and the overall colour scheme, so it may not look entirely the same anymore.
 
 ```Stellar by HTML5 UP
 html5up.net | @ajlkn
