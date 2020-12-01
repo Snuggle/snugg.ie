@@ -19,7 +19,7 @@ date: 2020-11-29 21:53:00
 {% capture page_markdown %}
 ## About hug 'n' stuff
 
-Let me tell you the tale of my dabblings with home servers or ['Homelab'](https://reddit.com/r/homelab) equipment. As I was experimenting with new things within tech, I found that I loved hosting little services and such to make my life easier. From things like [Nextcloud](https://nextcloud.com/), as a cloud storage replacement for something like [Google Drive](https://drive.google.com/), to a personal VPN with [Wireguard](https://wireguard.com/), my requirements ended up expanding to the point where I was spending up to £35/month on a rented VPS.
+Let me tell you the tale of my experiences with home servers (['Homelab'](https://reddit.com/r/homelab) equipment). As I was experimenting within tech, I found that I loved hosting little services and such to make my life easier. From [Nextcloud](https://nextcloud.com/), a cloud storage replacement similar to [Google Drive](https://drive.google.com/), to a personal VPN with [Wireguard](https://wireguard.com/), my requirements ended up expanding to the point where I was spending up to £35/month on a [rented VPS](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 This couldn't continue! Things were getting too expensive and I didn't like keeping my [NAS](https://simple.wikipedia.org/wiki/Network-attached_storage) storage in the cloud — it was slow.
 Enter... Hug Server.
@@ -35,15 +35,15 @@ Enter... Hug Server.
 ### Let's find a chassis and motherboard!
 
 <span class="image right"><a href="/assets/images/hug-server/original.webp"><img src="/assets/images/hug-server/original.webp" alt=""></a></span>
-I had ended up wandering upon an EBay listing for a Sandy Bridge server with listed for only £70!
+I ended up wandering upon an eBay listing for a Sandy Bridge server which was only £70.
 
-This was awesome, it had an 8-thread [Intel Xeon E3-1240](https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html) CPU plus an [Intel S1200BTL](https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html) motherboard. The most important part for me though, was the [Ri-Vier RVS2-06A](https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html) chassis with **included rails** and a 12-bay hotswappable SAS/SATA backplane. Yay! This would be perfect for building a custom server in as there are no OEM or proprietary parts - I could fit any components I'd like and there were no weird form factors that I would have to meet. It even used a standard PSU.
+This was awesome! It included an 8-thread [Intel Xeon E3-1240](https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html) CPU plus an [Intel S1200BTL](https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html) motherboard. The most important part for me, though, was the [Ri-Vier RVS2-06A](https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html) chassis with **included rails** and a 12-bay hotswappable SAS/SATA backplane. This was perfect for building a custom server within, as there were no OEM or proprietary parts — I could fit any components I'd like because there weren't any weird form factors to think about. It even used a standard PSU.
 
 <span class="image left"><a href="/assets/images/hug-server/motherboard.webp"><img src="/assets/images/hug-server/motherboard.webp" alt=""></a></span>
 
 
-The next part came along when I saw a motherboard that should've been worth about £500 at the time, which I bought for only £87. The ASUS Z10PE-D8 WS, a Haswell semi-workstation/server board with seven x16 PCIe lanes. It was so affordable 
-because it 'had a bent CPU2 socket pin' and the seller wasn't sure if the second socket would still work, as they only had one CPU to test with.
+The next part came along when I saw a motherboard that should've been worth about £500 at the time, which I bought for only £87. The ASUS Z10PE-D8 WS: a Haswell semi-workstation/server board with seven x16 PCIe lanes. It was so affordable 
+because it *'had a bent CPU2 socket pin'* and the seller wasn't sure if the second socket would still work, as they only had one CPU to test with. I tested it myself, there were no issues!
 
 <span class="image right"><a href="/assets/images/hug-server/ebay.webp"><img src="/assets/images/hug-server/ebay.webp" alt=""></a></span>
 
