@@ -28,8 +28,8 @@ twitter:
   url: https://github.com/Snuggle
 
 # Optional elements
-logo: /assets/images/logo.svg
-favicon: /assets/images/sparkles.png
+logo: /assets/images/sprinkles/large/logo.png
+favicon: /assets/images/sprinkles/favicons/normalfavicon-polyres.ico
 
 permalink: /posts/:title
 
