@@ -8,23 +8,24 @@
 
 @keyframes row-loading {
 	0% {
-	  opacity: 1.0;
+	  opacity: 0;
+	  transform: rotate(-30deg);
+	  rotate: -30deg;
 	}
 	100% {
-	  opacity: 0.3;
-	  rotate: -30deg;
-
+	  opacity: 0.4;
 	}
   }
   
   @keyframes row-loaded {
 	0% {
-	  opacity: 0.3;
+	  opacity: 0.4;
 	  rotate: -30deg;
 
 	}
 	100% {
 	  opacity: 1.0;
+
 	}
   }
   
@@ -57,9 +58,9 @@
 		}
 
 		.logo {
-			-webkit-animation: row-loaded 0.8s;
+			animation: row-loaded 0.8s;
 
-
+			@include vendor('transition', 'all 3s ease');
 			@include vendor('transition-delay', '0s');
 			display: block;
 			margin: auto;
@@ -133,8 +134,8 @@
 			}
 
 			.logo {
-				-webkit-animation: row-loading 0.8s;
-				-webkit-animation-fill-mode: forwards;
+				animation: row-loading 0.8s;
+				animation-fill-mode: forwards;
 			  }
 		}
 	}
