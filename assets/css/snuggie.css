@@ -1,7 +1,9 @@
-/* Main title padding */
-#nav+#main {
-	padding-top:4.25em;
-   }
+@media screen and (min-width: 737px) {
+	/* Main title padding */
+	#nav+#main {
+		padding-top:4.25em;
+	}
+}
 
 
 /* Remove content split */
