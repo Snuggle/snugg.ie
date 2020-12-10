@@ -1,14 +1,15 @@
 {%- assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' -%}
 {%- assign pages=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' | concat: posts -%}
 <head>
-    <title>{{ include.title }}</title>
     <!-- Meta time! -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta content="{{ site.title }}" property="og:site_name">
     {% if page.title %}
+    <title>{{ page.title }}</title>
     <meta content="{{ page.title }}" property="og:title">
     {% else %}
+    <title>{{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:title">
     {% endif %}
     {% if page.title %}

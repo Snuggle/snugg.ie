@@ -3,12 +3,12 @@ layout: page-no-navbar
 lang-ref: generic-page
 title: Hug
 subtitle: "Let's look into Hug, the server running all the things..."
-image: /assets/images/posts/hug-server.png
+image: hug-server.png
 date: 2020-11-29 21:53:00
 ---
 <!-- Content -->
 <div class="image main">
-	<img src="/assets/images/hug-server/within-rack.png" alt="">
+	<img src="{{ site.url }}/assets/images/posts/{{ page.image }}" alt="">
 </div>
 <!--{% capture page_markdown %}
 ## Hug Server
