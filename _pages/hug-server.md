@@ -3,6 +3,7 @@ layout: page-no-navbar
 lang-ref: generic-page
 title: Hug
 subtitle: "Let's look into Hug, the server running all the things..."
+image: /assets/images/posts/hug-server.png
 date: 2020-11-29 21:53:00
 ---
 <!-- Content -->

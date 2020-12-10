@@ -2,6 +2,7 @@
 {%- assign pages=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' | concat: posts -%}
 <head>
     <title>{{ include.title }}</title>
+    <!-- Meta time! -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta content="{{ site.title }}" property="og:site_name">
@@ -30,9 +31,9 @@
     <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-    <meta content="{{ site.url }}/assets/img/posts/{{ page.image }}" property="og:image">
+    <meta content="{{ site.url }}/assets/images/posts/{{ page.image }}" property="og:image">
     {% else %}
-    <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image">
+    <meta content="{{ site.url }}/assets/images/avatar.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
     {% for category in page.categories limit:1 %}
@@ -44,6 +45,7 @@
     <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
     {% endif %}
+    <!-- Meta time is over -->
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | absolute_url }}" />
     <link rel="stylesheet" href="{{ 'assets/css/snuggie.css' | absolute_url }}" />
     <link rel="stylesheet" href="{{ 'assets/css/snuggie.css' | absolute_url }}" />
