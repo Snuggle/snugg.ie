@@ -7,7 +7,7 @@
     <meta content="{{ site.title }}" property="og:site_name">
     {% if page.title %}
     <title>{{ page.title }}</title>
-    <meta content="{{ page.title }}" property="og:title">
+    <meta content="{{ page.title }} - {{ site.title }}" property="og:title">
     {% else %}
     <title>{{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:title">
@@ -32,9 +32,9 @@
     <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-    <meta content="{{ site.url }}/assets/images/posts/{{ page.image }}" property="og:image">
+    <meta content="https://snugg.ie/assets/images/posts/{{ page.image }}" property="og:image">
     {% else %}
-    <meta content="{{ site.url }}/assets/images/avatar.jpg" property="og:image">
+    <meta content="https://snugg.ie/assets/images/avatar.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
     {% for category in page.categories limit:1 %}
