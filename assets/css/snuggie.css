@@ -145,6 +145,7 @@ body.force-theme-dark h4 {
   right: 1%;
   top: 1%;
   min-width: 4.5em;
+  font-size: x-large;
 }
 
 .toggle-theme-dark {
@@ -152,6 +153,7 @@ body.force-theme-dark h4 {
   right: 1%;
   top: 1%;
   min-width: 4.5em;
+  font-size: x-large;
 }
 
 @media screen and (min-width: 1700px) {
