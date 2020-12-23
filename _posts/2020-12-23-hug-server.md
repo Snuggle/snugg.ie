@@ -5,7 +5,8 @@ title: Hug
 subtitle: "Let's look into Hug, the server running all the things..."
 image: hug-server.png
 date: 2020-11-29 21:53:00
-redirect_from: /hug-server
+redirect_from: 
+  - /hug-server.html
 ---
 <!-- Content -->
 <div class="image main">
