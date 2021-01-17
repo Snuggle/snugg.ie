@@ -6,30 +6,6 @@
 
 /* Header */
 
-@keyframes row-loading {
-	0% {
-	  opacity: 0;
-	  transform: rotate(-30deg);
-	  rotate: -30deg;
-	}
-	100% {
-	  opacity: 0.4;
-	}
-  }
-  
-  @keyframes row-loaded {
-	0% {
-	  opacity: 0.4;
-	  rotate: -30deg;
-
-	}
-	100% {
-	  opacity: 1.0;
-
-	}
-  }
-  
-
 #header {
 	@include padding(5em, 5em, (0, 0, -2em, 0));
 	text-align: center;
@@ -48,27 +24,28 @@
 
 		h1 {
 			font-size: 3.25em;
-			@include vendor('transition', 'opacity 3s ease');
-			@include vendor('transition-delay', '0.5s');
 		}
 
-		p {
+		> * {
 			@include vendor('transition', 'opacity 3s ease');
 			@include vendor('transition-delay', '0.5s');
+			opacity: 1
 		}
 
 		.logo {
-			animation: row-loaded 0.8s;
-
-			@include vendor('transition', 'all 3s ease');
+			@include vendor('transition', (
+				'opacity 1.25s ease',
+				'transform 0.5s ease'
+			));
 			@include vendor('transition-delay', '0s');
 			display: block;
 			margin: auto;
-			width: 15%;
-			height: 15%;
+			width: 20%;
+			height: 20%;
 
 			img {
-				margin: 0 0 1.5em 0;
+				display: block;
+				margin: 5% auto;
 				max-width: 75%;
 			}
 		}
@@ -134,9 +111,8 @@
 			}
 
 			.logo {
-				animation: row-loading 0.8s;
-				animation-fill-mode: forwards;
-			  }
+				@include vendor('transform', 'scale(0.8) rotate(-30deg)')
+			}
 		}
 	}
 }
