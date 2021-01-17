@@ -11,6 +11,9 @@ redirect_from: /hug-server
 <div class="image main">
 	<img src="{{ site.url }}/assets/images/posts/{{ page.image }}" alt="">
 </div>
+
+<script src="{{ 'assets/js/refresh-badges.js' | absolute_url }}"></script>
+
 <!--{% capture page_markdown %}
 ## Hug Server
 {% endcapture %}

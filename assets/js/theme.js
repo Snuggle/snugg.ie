@@ -6,13 +6,11 @@ function set_theme() {
 	  document.getElementById('nav').classList.add('force-theme-'+localStorage['theme']);
 	  }}
   
-	  if (localStorage['theme'] === 'dark') {
-		  document.getElementById('avatar').src='https://github.com/Snuggle.png'
-	  } else {
-		  document.getElementById('avatar').src='https://github.com/Snuggle.png'
-	  }
-  
-  
+	//   if (localStorage['theme'] === 'dark') {
+	// 	  document.getElementById('avatar').src='https://github.com/Snuggle.png'
+	//   } else {
+	// 	  document.getElementById('avatar').src='https://github.com/Snuggle.png'
+	//   }
   }
   
   function reset_theme() {
