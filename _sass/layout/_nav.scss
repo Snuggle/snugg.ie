@@ -94,7 +94,6 @@
 
 	&.alt {
 		position: fixed;
-		top: 0;
 		padding: 0.5em 1em;
 		background-color: transparentize(_palette(invert, bg-alt), 0.05);
 		border-top-left-radius: 0;
@@ -115,8 +114,8 @@
 	@include breakpoint('<=small') {
 		display: none;
 
-		//& + #main {
-			//padding-top: 0;
-		//}
+		& + #main {
+			padding-top: 0;
+		}
 	}
 }
