@@ -16,7 +16,7 @@ title: First Section
     </header>
   <div class="cards">
     {% for post in site.posts limit:3 %}
-      <div class="card"><a href="{{ post.url }}"><img src="{{ site.url }}/assets/images/posts/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>- {{ post.date || date_to_string }}</h5></div></a></div>
+      <div class="card"><a href="{{ post.url }}"><img src="{{ site.url }}/assets/images/posts/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>- {{ post.date | date_to_string }}</h5></div></a></div>
     {% endfor %}
   </div>
 
