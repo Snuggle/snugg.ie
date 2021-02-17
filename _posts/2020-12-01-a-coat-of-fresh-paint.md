@@ -3,6 +3,7 @@ layout: page
 lang-ref: generic-page
 title: "A Coat of Fresh Paint"
 subtitle: "What is snugg.ie running on?"
+image: fresh_paint.png
 ---
 
 {% capture page_markdown %}

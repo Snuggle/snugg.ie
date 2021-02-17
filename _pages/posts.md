@@ -6,28 +6,23 @@ subtitle:
 date: 2020-11-29 21:53:00
 ---
 <!-- Content -->
-<div class="image main">
-	<img src="/assets/images/hug-server/final_cropped.webp" alt="">
-</div>
 {% capture page_markdown %}
-## Hug Server
+## All My Posts
 {% endcapture %}
 {% include header-major-special.html %}
 
 
 
 <ul>
-  <h2>My Pages</h2>
-  {% for page in site.pages %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-  {% endfor %}
-<hr>
-  <h2>My Posts</h2>
     {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
+  <hr>
+  <div class="cards">
+    {% for post in site.posts %}
+      <div class="card"><a href="{{ post.url }}"><img src="{{ site.url }}/assets/images/posts/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>- {{ post.date || date_to_string }}</h5></div></a></div>
+    {% endfor %}
+  </div>
 </ul>
