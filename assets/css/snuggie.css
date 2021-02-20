@@ -1,3 +1,6 @@
+.card:nth-child(3) { border: 5px solid red; display: block; }
+
+
 @media screen and (min-width: 737px) {
 	/* Main title padding */
 	#nav+#main {
@@ -334,11 +337,14 @@ html {
 
 .cards {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-start;
-	  justify-content: center;
+	justify-content: center;
   }
   
   .card {
+	flex: 1;
+	min-width: 200px;
 	position: relative;
 	background: #fff;
 	width: 24em;
