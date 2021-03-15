@@ -78,6 +78,10 @@ body.force-theme-dark {
 	background-image: url("images/overlay.png"), linear-gradient(45deg, #230313 15%, #640032 85%);
 }
 
+#main .card .card-body h2 {
+	color: #636363;
+}
+
 #nav.force-theme-dark {
 	background-color: #7b1347;
 	color: LavenderBlush;
@@ -104,21 +108,20 @@ body.force-theme-dark {
 	color: white !important;
 }
 
-
-body.force-theme-dark h1 {
-	color: LavenderBlush !important;
+#main.force-theme-dark h1 {
+	color: LavenderBlush;
 }
 
-body.force-theme-dark h2 {
-	color: LavenderBlush !important;
+#main.force-theme-dark h2 {
+	color: LavenderBlush;
 }
 
-body.force-theme-dark h3 {
-	color: LavenderBlush !important;
+#main.force-theme-dark h3 {
+	color: LavenderBlush;
 }
 
-body.force-theme-dark h4 {
-	color: LavenderBlush !important;
+#main.force-theme-dark h4 {
+	color: LavenderBlush;
 }
 
 #main.force-theme-dark > .main {

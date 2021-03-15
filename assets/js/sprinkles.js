@@ -75,6 +75,6 @@ console.log('Currently it is ' + getSeason()); // Currently it is summer
 
 
 $(document).ready(function(){
-    document.body.className = getSeason();
+    document.body.classList.add(getSeason());
   });
   

@@ -1,7 +1,7 @@
 function set_theme() {
 	if (localStorage['theme']) {
 	  document.getElementById('main').classList.add('force-theme-'+localStorage['theme']);
-	  document.querySelector('body').classList.add('force-theme-'+localStorage['theme']);
+	  document.body.classList.add('force-theme-'+localStorage['theme']);
 	  if(document.getElementById("nav")){
 	  document.getElementById('nav').classList.add('force-theme-'+localStorage['theme']);
 	  }}
