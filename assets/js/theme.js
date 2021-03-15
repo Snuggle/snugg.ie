@@ -30,10 +30,8 @@ function set_theme() {
   
 	  if(document.getElementById("nav")){
 		  localStorage.removeItem('theme');
-		document.getElementById('nav').classList.forEach(className => {
-		  if (className.startsWith('force-theme-')) {
+		document.querySelector('nav').classList.forEach(className => {
 			  document.getElementById('nav').classList.remove(className);
-		  }
 		});
 	  }
   
@@ -47,4 +45,3 @@ function set_theme() {
   }
   
   set_theme();
-  
