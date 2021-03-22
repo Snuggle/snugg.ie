@@ -48,6 +48,7 @@ sass:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
