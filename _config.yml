@@ -2,31 +2,6 @@
 title: snugg.ie
 description: "Beep-boop. Beep-boop. Here is Evie Snuggle's site! &#127861;&nbsp;&#127800;"
 
-
-# Social settings
-500px:
-  url: https://github.com/Snuggle
-facebook:
-  url: https://github.com/Snuggle
-github:
-  url: https://github.com/Snuggle
-gitlab:
-  url: https://github.com/Snuggle
-instagram:
-  url: https://github.com/Snuggle
-linkedin:
-  url: https://github.com/Snuggle
-medium:
-  url: https://github.com/Snuggle
-pinterest:
-  url: https://github.com/Snuggle
-slack:
-  url: https://github.com/Snuggle
-snapchat:
-  url: https://github.com/Snuggle
-twitter:
-  url: https://github.com/Snuggle
-
 # Optional elements
 logo: /assets/images/sprinkles/vector/sprinkles.svg
 favicon: /assets/images/sprinkles/vector/sprinkles.svg
