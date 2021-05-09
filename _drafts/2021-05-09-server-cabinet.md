@@ -8,7 +8,7 @@ date: 2021-05-09 17:49:00
 ---
 <!-- Content -->
 <div class="image main">
-	<img src="{{ site.url }}/assets/images/{{ page.url }}/{{ page.image }}" alt="">
+	<img src="{{ site.url }}/assets/images/{{ page.url }}/{{ page.image }}" alt="A picture showing the inside of the finished/final cabinet.">
 </div>
 
 <!--{% capture page_markdown %}
@@ -22,9 +22,9 @@ date: 2021-05-09 17:49:00
 # My Server Cabinet/Coffee Table
 ## The Idea
 
-Now after [building a server](/posts/hug-server) for self-hosting things, there's no-where to put it! Most server cabinets that people can buy online are either _way too expensive_ or way too big 'n' heavy to ship properly. So, how could I make a server of my own yet still make it functional?
+Now after [building a server](/posts/hug-server) for self-hosting things, there's no-where to put it! Most server cabinets that people can buy online are either _way too expensive_ or way too big 'n' heavy to ship properly. So, how could I make a cabinet of my own yet still make it functional?
 
-I wanted to avoid the ever-popular [LackRack](https://wiki.eth0.nl/index.php/LackRack) where people buy [an Ikea table](https://www.ikea.com/us/en/p/lack-side-table-black-20011408/) to use as their server rack, which even comes with a [handy instruction manual](http://eth-0.nl/lackrack.pdf), as it doesn't actually have any proper mounting holes. I didn't like the thought of screwing all this expensive equipment directly into into the wood, which was flimsy particle board. I was also planning to add a heavy [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply) at some point, which also ruled out this option.
+I wanted to avoid the ever-popular [LackRack](https://wiki.eth0.nl/index.php/LackRack) where people buy [an Ikea table](https://www.ikea.com/us/en/p/lack-side-table-black-20011408/) to use as their server rack, which even comes with a [handy instruction manual](http://eth-0.nl/lackrack.pdf), as it doesn't actually have any proper mounting holes. I didn't like the thought of screwing all this expensive equipment directly into into the particle wood and also not being able to use the sliding rails that come with many server chassis. I was also planning to add a heavy [UPS](https://en.wikipedia.org/wiki/Uninterruptible_power_supply) at some point, which also ruled out this option.
 
 
 
@@ -54,10 +54,10 @@ Most of this project was just finding things that were lying around and using th
 
 <div class="box alt">
 <div class="row gtr-uniform">
-	<div class="col-8"><span class="image fit"><img src="/assets/images/posts/server-cabinet/basic-frame.jpg" alt=""></span></div>
-	<div class="col-4"><span class="image fit"><img src="/assets/images/posts/server-cabinet/test-width.jpg" alt=""></span></div>
-	<div class="col-6"><span class="image fit"><img src="/assets/images/posts/server-cabinet/test-fit.jpg" alt=""></span></div>
-	<div class="col-6"><span class="image fit"><img src="/assets/images/posts/server-cabinet/ServerCabinetConcept.svg" alt=""></span></div>
+	<div class="col-8"><span class="image fit"><a href="/assets/images/posts/server-cabinet/basic-frame.jpg"><img src="/assets/images/posts/server-cabinet/basic-frame.jpg" alt="Three basic sticks of wood which are beginning a frame"></a></span></div>
+	<div class="col-4"><span class="image fit"><a href="/assets/images/posts/server-cabinet/test-width.jpg"><img src="/assets/images/posts/server-cabinet/test-width.jpg" alt="A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain."></a></span></div>
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/test-fit.jpg"><img src="/assets/images/posts/server-cabinet/test-fit.jpg" alt="Another test fit of the server but this time within a shed"></a></span></div>
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/ServerCabinetConcept.svg"><img src="/assets/images/posts/server-cabinet/ServerCabinetConcept.svg" alt="A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top."></a></span></div>
 	
 </div>
 </div>
@@ -71,7 +71,7 @@ Most of this project was just finding things that were lying around and using th
 
 
 
-<span class="image fit"><a href="/assets/images/posts/server-cabinet/frame-completed.jpg"><img src="/assets/images/posts/server-cabinet/frame-completed.jpg" alt=""></a></span>
+<span class="image fit"><a href="/assets/images/posts/server-cabinet/frame-completed.jpg"><img src="/assets/images/posts/server-cabinet/frame-completed.jpg" alt="A picture showing the frame being completed with the server mounted inside using rails"></a></span>
 
 (Note how we're using [the server](/posts/hug-server) as a guideline for the exact width needed! Easier and more accurate than measuring by center-widths.)
 
@@ -79,34 +79,34 @@ Next we can start measuring things up. I would need two different types of plank
 
 ### It's just like LEGO!
 
-<span class="image fit"><a href="/assets/images/posts/server-cabinet/measure.jpg"><img src="/assets/images/posts/server-cabinet/measure.jpg" alt=""></a></span>
+<span class="image fit"><a href="/assets/images/posts/server-cabinet/measure.jpg"><img src="/assets/images/posts/server-cabinet/measure.jpg" alt="A picture of me measuring planks of wood and labelling them"></a></span>
 
 
 <div class="box alt">
 <div class="row gtr-uniform">
-	<div class="col-5"><span class="image fit"><a href="/assets/images/posts/server-cabinet/planks-all-cut.jpg"><img src="/assets/images/posts/server-cabinet/planks-all-cut.jpg" alt=""></a></span></div>
+	<div class="col-5"><span class="image fit"><a href="/assets/images/posts/server-cabinet/planks-all-cut.jpg"><img src="/assets/images/posts/server-cabinet/planks-all-cut.jpg" alt="An image of all of the planks of wood completed, resting inside the in-progress cabinet"></a></span></div>
 
-	<div class="col-7"><span class="image fit"><a href="/assets/images/posts/server-cabinet/structure.jpg"><img src="/assets/images/posts/server-cabinet/structure.jpg" alt=""></a></span></div>
+	<div class="col-7"><span class="image fit"><a href="/assets/images/posts/server-cabinet/structure.jpg"><img src="/assets/images/posts/server-cabinet/structure.jpg" alt="Adding a cross-brace to the server cabinet for improved structural support"></a></span></div>
 
-	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/added-treatment.jpg"><img src="/assets/images/posts/server-cabinet/added-treatment.jpg" alt=""></a></span></div>
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/added-treatment.jpg"><img src="/assets/images/posts/server-cabinet/added-treatment.jpg" alt="A picture showing the cabinet being treated with wood-stain"></a></span></div>
 
-	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/first-side.jpg"><img src="/assets/images/posts/server-cabinet/first-side.jpg" alt=""></a></span></div>
-
-
-
-	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/planked.jpg"><img src="/assets/images/posts/server-cabinet/planked.jpg" alt=""></a></span></div>
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/first-side.jpg"><img src="/assets/images/posts/server-cabinet/first-side.jpg" alt="Looking through the cabinet"></a></span></div>
 
 
-	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/added-door.jpg"><img src="/assets/images/posts/server-cabinet/added-door.jpg" alt=""></a></span></div>
+
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/planked.jpg"><img src="/assets/images/posts/server-cabinet/planked.jpg" alt="A picture of the almost finished server cabinet, just missing doors"></a></span></div>
+
+
+	<div class="col-6"><span class="image fit"><a href="/assets/images/posts/server-cabinet/added-door.jpg"><img src="/assets/images/posts/server-cabinet/added-door.jpg" alt="An a picture of the server cabinet basically all finished, besides minor touchups"></a></span></div>
 </div>
 </div>
 
 ## Finally Finished!
 <div class="box alt">
 <div class="row gtr-uniform">
-	<div class="col-7"><span class="image fit"><a href="/assets/images/posts/server-cabinet/server-cabinet.jpg"><img src="/assets/images/posts/server-cabinet/server-cabinet.jpg" alt=""></a></span></div>
+	<div class="col-7"><span class="image fit"><a href="/assets/images/posts/server-cabinet/server-cabinet.jpg"><img src="/assets/images/posts/server-cabinet/server-cabinet.jpg" alt="Inside the server cabinet, showing the cross brace and all the internal walls"></a></span></div>
 
-	<div class="col-5"><span class="image fit"><a href="/assets/images/posts/server-cabinet/at-home.jpg"><img src="/assets/images/posts/server-cabinet/at-home.jpg" alt=""></a></span></div>
+	<div class="col-5"><span class="image fit"><a href="/assets/images/posts/server-cabinet/at-home.jpg"><img src="/assets/images/posts/server-cabinet/at-home.jpg" alt="The server cabinet in-use, with the hug server and a UPS mounted inside"></a></span></div>
 </div>
 </div>
 {% endcapture %}
@@ -122,7 +122,7 @@ Would I do it again? **Yes!**
 
 
 ## And 12 months later...	
-<span class="image fit"><a href="/assets/images/posts/server-cabinet/server-cabinet-filled.jpg"><img src="/assets/images/posts/server-cabinet/server-cabinet-filled.jpg" alt=""></a></span>
+<span class="image fit"><a href="/assets/images/posts/server-cabinet/server-cabinet-filled.jpg"><img src="/assets/images/posts/server-cabinet/server-cabinet-filled.jpg" alt="A final picture of how things have progressed after twelve months, showing the original UPS and server mounted within, as well as a bluetooth temperature sensor, a PDU, a Unifi Security Gateway Pro and a bunch of cables"></a></span>
 
 {% endcapture %}
 {% include section-normal.html %}
