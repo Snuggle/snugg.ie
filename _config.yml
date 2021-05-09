@@ -8,6 +8,8 @@ favicon: /assets/images/sprinkles/vector/sprinkles.svg
 
 permalink: /posts/:title
 
+unpublished: true
+
 # Collections
 collections:
   home_sections:
