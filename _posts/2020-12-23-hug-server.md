@@ -6,6 +6,7 @@ subtitle: "Let's look into Hug, the server running all the things..."
 image: hug-server.png
 date: 2020-12-23 21:53:00
 redirect_from: /hug-server
+images: /assets/images/posts/hug-server
 ---
 <!-- Content -->
 <div class="image main">
@@ -39,18 +40,18 @@ Enter... Hug Server.
 ## And so it begins...
 ### Let's find a chassis and motherboard!
 
-<span class="image right"><a href="/assets/images/hug-server/original.webp"><img src="/assets/images/hug-server/original.webp" alt=""></a></span>
+<span class="image right"><a href="{{ page.images }}/original.webp"><img src="{{ page.images }}/original.webp" alt=""></a></span>
 I ended up wandering upon an eBay listing for a Sandy Bridge server which was only £70.
 
 This was awesome! It included an 8-thread [Intel Xeon E3-1240](https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html) CPU plus an [Intel S1200BTL](https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html) motherboard. The most important part for me, though, was the [Ri-Vier RVS2-06A](https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html) chassis with **included rails** and a 12-bay hotswappable SAS/SATA backplane. This was perfect for building a custom server within, as there were no OEM or proprietary parts — I could fit any components I'd like because there weren't any weird form factors to think about. It even used a standard PSU.
 
-<span class="image left"><a href="/assets/images/hug-server/motherboard.webp"><img src="/assets/images/hug-server/motherboard.webp" alt=""></a></span>
+<span class="image left"><a href="{{ page.images }}/motherboard.webp"><img src="{{ page.images }}/motherboard.webp" alt=""></a></span>
 
 
 The next part came along when I saw a motherboard that should've been worth about £500 at the time, which I bought for only £87. The ASUS Z10PE-D8 WS: a Haswell semi-workstation/server board with seven x16 PCIe lanes. It was so affordable 
 because it *'had a bent CPU2 socket pin'* and the seller wasn't sure if the second socket would still work, as they only had one CPU to test with. I tested it myself, there were no issues!
 
-<span class="image right"><a href="/assets/images/hug-server/ebay.webp"><img src="/assets/images/hug-server/ebay.webp" alt=""></a></span>
+<span class="image right"><a href="{{ page.images }}/ebay.webp"><img src="{{ page.images }}/ebay.webp" alt=""></a></span>
 
 {% endcapture %}
 {% include section-normal-double-image.html %}
@@ -59,7 +60,7 @@ because it *'had a bent CPU2 socket pin'* and the seller wasn't sure if the seco
 
 ### Now to make it smart, to hunt some CPU and memory!
 
-<span class="image right"><a href="/assets/images/hug-server/cpu.webp"><img src="/assets/images/hug-server/cpu.webp" alt=""></a></span>
+<span class="image right"><a href="{{ page.images }}/cpu.webp"><img src="{{ page.images }}/cpu.webp" alt=""></a></span>
 
 
 As very few people actually have Haswell server motherboards, the CPUs sell for relatively cheap! I managed to purchase two Intel Xeon E5-2630 v3's for £30/ea, giving me a total of 32 threads at 2.4–3.2 GHz for £60.
@@ -73,8 +74,8 @@ I also didn't have too much issue finding memory. I found three 16 GB sticks of 
 ### Putting it all together like LEGO
 
 <div class="row gtr-uniform">
-<div class="col-6"><span class="image fit"><a href="/assets/images/hug-server/motherboard_built.webp"><img src="/assets/images/hug-server/motherboard_built.webp" alt=""></a></span></div>
-<div class="col-6"><span class="image fit"><a href="/assets/images/hug-server/server_inside.webp"><img src="/assets/images/hug-server/server_inside.webp" alt=""></a></span></div>
+<div class="col-6"><span class="image fit"><a href="{{ page.images }}/motherboard_built.webp"><img src="{{ page.images }}/motherboard_built.webp" alt=""></a></span></div>
+<div class="col-6"><span class="image fit"><a href="{{ page.images }}/server_inside.webp"><img src="{{ page.images }}/server_inside.webp" alt=""></a></span></div>
 </div>
 
 All that was left was to put everything together! Pop the two processors in their socket, install the memory and we're off to the races! There actually wasn't any issue with bent CPU pins, everything worked pretty much out of the box. This motherboard also supports IPMI with an addin-module.
@@ -83,8 +84,8 @@ The motherboard was an extremely tight fit, as it is designed to the EEB specifi
 
 <div class="box alt">
 <div class="row gtr-uniform">
-<div class="col-12"><span class="image fit"><a href="/assets/images/hug-server/heatsinky.webp"><img src="/assets/images/hug-server/heatsinky.webp" alt=""></a></span></div>
-<div class="col-12"><span class="image fit"><a href="/assets/images/hug-server/final.webp"><img src="/assets/images/hug-server/final.webp" alt=""></a></span></div>
+<div class="col-12"><span class="image fit"><a href="{{ page.images }}/heatsinky.webp"><img src="{{ page.images }}/heatsinky.webp" alt=""></a></span></div>
+<div class="col-12"><span class="image fit"><a href="{{ page.images }}/final.webp"><img src="{{ page.images }}/final.webp" alt=""></a></span></div>
 </div>
 </div>
 
@@ -96,7 +97,7 @@ The motherboard was an extremely tight fit, as it is designed to the EEB specifi
 
 <div class="box alt">
 <div class="row gtr-uniform">
-<div class="col-6"><span class="image fit"><a href="/assets/images/hug-server/neofetch.webp"><img src="/assets/images/hug-server/neofetch.webp" alt=""></a></span></div>
+<div class="col-6"><span class="image fit"><a href="{{ page.images }}/neofetch.webp"><img src="{{ page.images }}/neofetch.webp" alt=""></a></span></div>
 </div>
 </div>
 
@@ -106,7 +107,7 @@ I am familiar with Fedora, as I use both Fedora and MacOS on my personal devices
 
 <div class="box alt">
 <div class="row gtr-uniform">
-<div class="col-12"><span class="image fit"><a href="/assets/images/hug-server/cockpit.webp"><img src="/assets/images/hug-server/cockpit.webp" alt=""></a></span></div>
+<div class="col-12"><span class="image fit"><a href="{{ page.images }}/cockpit.webp"><img src="{{ page.images }}/cockpit.webp" alt=""></a></span></div>
 </div>
 </div>
 
@@ -114,11 +115,11 @@ I am familiar with Fedora, as I use both Fedora and MacOS on my personal devices
 ## What things are you running?
 ### Logical Topology Diagram
 
-<embed class="centre" src="/assets/images/hug-server/logical_topology.svg">
+<embed class="centre" src="{{ page.images }}/logical_topology.svg">
 
 ### Physical Topology Diagram
 
-<embed class="centre" src="/assets/images/hug-server/physical_topology.svg">
+<embed class="centre" src="{{ page.images }}/physical_topology.svg">
 
 And... that's pretty much everything for now. More might be coming soon! (Including plans to create a DIY server cabinet)
 
