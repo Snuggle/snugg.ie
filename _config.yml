@@ -1,6 +1,6 @@
 # Site settings
-title: snugg.ie
-description: "Beep-boop. Beep-boop. Here is Evie Snuggle's site! &#127861;&nbsp;&#127800;"
+title: beta.snugg.ie
+description: "Beep-boop. Beep-boop. Here is Evie Snuggle's (beta) site! &#127861;&nbsp;&#127800;"
 
 # Optional elements
 logo: /assets/images/sprinkles/vector/sprinkles.svg
@@ -27,7 +27,7 @@ plugins:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://beta.snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
 author: Evie Snuggle
 copyright:
   holder: Evie Snuggle
