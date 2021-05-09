@@ -27,7 +27,7 @@ plugins:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://beta.snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
 author: Evie Snuggle
 copyright:
   holder: Evie Snuggle
