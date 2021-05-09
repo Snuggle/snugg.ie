@@ -32,7 +32,7 @@
     <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-    <meta content="https://snugg.ie/assets/images/posts/{{ page.image }}" property="og:image">
+    <meta content="{{ site.url }}/assets/images{{ page.url }}/{{ page.image }}" property="og:image">
     {% else %}
     <meta content="{{ site.url }}/assets/images/avatar.jpg" property="og:image">
     {% endif %}
