@@ -9,6 +9,8 @@ favicon: /assets/images/sprinkles/vector/sprinkles.svg
 permalink: /posts/:title
 
 unpublished: true
+show_drafts: true
+future: true
 
 # Collections
 collections:
