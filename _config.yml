@@ -6,7 +6,7 @@ description: "Beep-boop. Beep-boop. Here is Evie Snuggle's (beta) site! &#127861
 logo: /assets/images/sprinkles/vector/sprinkles.svg
 favicon: /assets/images/sprinkles/vector/sprinkles.svg
 
-permalink: /posts/:title
+permalink: /posts/:title/
 
 unpublished: true
 show_drafts: true
@@ -18,7 +18,7 @@ collections:
     output: false
   pages:
     output: true
-    permalink: /:title
+    permalink: /:title/
 
 # Build settings
 markdown: kramdown
