@@ -55,12 +55,11 @@ Most of this project was just finding things that were lying around and using th
 
 
 {% capture page_markdown %} 
-![A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top.]({{ page.images }}/ServerCabinetConcept.svg){:class="image fit photo"}
-![A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain.]({{ page.images }}/test-width.jpg){:class="image fit photo"}
-![Another test fit of the server but this time within a shed]({{ page.images }}/test-fit.jpg){:class="image fit photo"}
+![A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top.](/assets/images/posts/server-cabinet//ServerCabinetConcept.svg){:class="image fit photo"}
+![A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain.](/assets/images/posts/server-cabinet//test-width.jpg){:class="image fit photo"}
+![Another test fit of the server but this time within a shed](/assets/images/posts/server-cabinet//test-fit.jpg){:class="image fit photo"}
+![Three basic sticks of wood which are beginning a frame](/assets/images/posts/server-cabinet//basic-frame.jpg){:class="image fit photo"}
 {% endcapture %}
-![Three basic sticks of wood which are beginning a frame]({{ page.images }}/basic-frame.jpg){:class="image fit photo"}
-
 {% include photo-gallery.html %}
 
 ---
