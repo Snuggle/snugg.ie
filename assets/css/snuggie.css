@@ -335,6 +335,20 @@ html {
 }
 */
 
+.photo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.image.fit.photo {
+	flex: 1;
+	min-width: 35%;
+	position: relative;
+	margin-right: 1em;
+}
+
 .cards {
 	display: flex;
 	flex-wrap: wrap;

@@ -12,14 +12,14 @@ images: /assets/images/posts/server-cabinet
 	<img src="{{ site.url }}/assets/images/{{ page.url }}/{{ page.image }}" alt="A picture showing the inside of the finished/final cabinet.">
 </div>
 
-<!--{% capture page_markdown %}
+<!--
 ## Hug Server Cabinet
-{% endcapture %}
-{% include header-major-special.html %}-->
+
+-->
 
 
 
-{% capture page_markdown %}
+
 # My Server Cabinet/Coffee Table
 ## The Idea
 
@@ -38,10 +38,10 @@ A wild idea appeared!
 > <div>💡 Make the server cabinet also be a coffee table!</div>
 
 
-{% endcapture %}
-{% include section-normal.html %}
+----
 
-{% capture page_markdown %}
+
+
 ## Let's get going...
 ### Cut some wood!
 
@@ -53,20 +53,18 @@ Next we need to look into how we could rack-mount things. Thankfully, I could fi
 
 Most of this project was just finding things that were lying around and using those. For example, we used No. 10 x 2-1/2" 5mm x 60mm Woodscrews and No. 8 x 1-1/4" 4mm x 30mm Woodscrews. Why? They were lying around and they worked!
 
-<div class="box alt">
-<div class="row gtr-uniform">
-	<div class="col-8"><span class="image fit"><a href="{{ page.images }}/basic-frame.jpg"><img src="{{ page.images }}/basic-frame.jpg" alt="Three basic sticks of wood which are beginning a frame"></a></span></div>
-	<div class="col-4"><span class="image fit"><a href="{{ page.images }}/test-width.jpg"><img src="{{ page.images }}/test-width.jpg" alt="A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain."></a></span></div>
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/test-fit.jpg"><img src="{{ page.images }}/test-fit.jpg" alt="Another test fit of the server but this time within a shed"></a></span></div>
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/ServerCabinetConcept.svg"><img src="{{ page.images }}/ServerCabinetConcept.svg" alt="A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top."></a></span></div>
-	
-</div>
-</div>
 
-
+{% capture page_markdown %} 
+![A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top.]({{ page.images }}/ServerCabinetConcept.svg){:class="image fit photo"}
+![A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain.]({{ page.images }}/test-width.jpg){:class="image fit photo"}
+![Another test fit of the server but this time within a shed]({{ page.images }}/test-fit.jpg){:class="image fit photo"}
 {% endcapture %}
-{% include section-normal.html %}
-{% capture page_markdown %}
+![Three basic sticks of wood which are beginning a frame]({{ page.images }}/basic-frame.jpg){:class="image fit photo"}
+
+{% include photo-gallery.html %}
+
+---
+
 
 ## Frame done, let's start planking!
 
@@ -110,9 +108,10 @@ Next we can start measuring things up. I would need two different types of plank
 	<div class="col-5"><span class="image fit"><a href="{{ page.images }}/at-home.jpg"><img src="{{ page.images }}/at-home.jpg" alt="The server cabinet in-use, with the hug server and a UPS mounted inside"></a></span></div>
 </div>
 </div>
-{% endcapture %}
-{% include section-normal.html %}
-{% capture page_markdown %}
+
+----
+
+
 
 This project was loads of fun and it's super useful, it's now in the middle of our living room and sees constant daily use, for multiple purposes! In terms of thermals, everything is pretty alright due to plenty of gaps all over. One thing to keep in mind though, is that noise needs to be kept to a minimum and you might even need to replace some of the fans inside of server components.
 
@@ -122,8 +121,7 @@ And finally, thank you so much for all the help putting this together and sawing
 Would I do it again? **Yes!**
 
 
-## And 12 months later...	
-<span class="image fit"><a href="{{ page.images }}/server-cabinet-filled.jpg"><img src="{{ page.images }}/server-cabinet-filled.jpg" alt="A final picture of how things have progressed after twelve months, showing the original UPS and server mounted within, as well as a bluetooth temperature sensor, a PDU, a Unifi Security Gateway Pro and a bunch of cables"></a></span>
 
-{% endcapture %}
-{% include section-normal.html %}
+## And 12 months later...	
+![A final picture of how things have progressed after twelve months, showing the original UPS and server mounted within, as well as a bluetooth temperature sensor, a PDU, a Unifi Security Gateway Pro and a bunch of cables]({{ page.images }}/server-cabinet-filled.jpg){:class="image fit"}
+
