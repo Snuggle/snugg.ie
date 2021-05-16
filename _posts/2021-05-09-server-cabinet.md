@@ -8,17 +8,11 @@ date: 2021-05-09 17:49:00
 images: /assets/images/posts/server-cabinet
 ---
 <!-- Content -->
-<div class="image main">
-	<img src="{{ site.url }}/assets/images/{{ page.url }}/{{ page.image }}" alt="A picture showing the inside of the finished/final cabinet.">
-</div>
 
 <!--
 ## Hug Server Cabinet
 
 -->
-
-
-
 
 # My Server Cabinet/Coffee Table
 ## The Idea
@@ -67,9 +61,7 @@ Most of this project was just finding things that were lying around and using th
 
 ## Frame done, let's start planking!
 
-
-
-<span class="image fit"><a href="{{ page.images }}/frame-completed.jpg"><img src="{{ page.images }}/frame-completed.jpg" alt="A picture showing the frame being completed with the server mounted inside using rails"></a></span>
+![A picture showing the frame being completed with the server mounted inside using rails](/assets/images/posts/server-cabinet/frame-completed.jpg){:class="image fit"}
 
 (Note how we're using [the server](/posts/hug-server) as a guideline for the exact width needed! Easier and more accurate than measuring by center-widths.)
 
@@ -77,36 +69,26 @@ Next we can start measuring things up. I would need two different types of plank
 
 ### It's just like LEGO!
 
-<span class="image fit"><a href="{{ page.images }}/measure.jpg"><img src="{{ page.images }}/measure.jpg" alt="A picture of me measuring planks of wood and labelling them"></a></span>
+![A picture of me measuring planks of wood and labelling them](/assets/images/posts/server-cabinet/measure.jpg){:class="image fit"}
 
 
-<div class="box alt">
-<div class="row gtr-uniform">
-	<div class="col-5"><span class="image fit"><a href="{{ page.images }}/planks-all-cut.jpg"><img src="{{ page.images }}/planks-all-cut.jpg" alt="An image of all of the planks of wood completed, resting inside the in-progress cabinet"></a></span></div>
-
-	<div class="col-7"><span class="image fit"><a href="{{ page.images }}/structure.jpg"><img src="{{ page.images }}/structure.jpg" alt="Adding a cross-brace to the server cabinet for improved structural support"></a></span></div>
-
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/added-treatment.jpg"><img src="{{ page.images }}/added-treatment.jpg" alt="A picture showing the cabinet being treated with wood-stain"></a></span></div>
-
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/first-side.jpg"><img src="{{ page.images }}/first-side.jpg" alt="Looking through the cabinet"></a></span></div>
-
-
-
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/planked.jpg"><img src="{{ page.images }}/planked.jpg" alt="A picture of the almost finished server cabinet, just missing doors"></a></span></div>
-
-
-	<div class="col-6"><span class="image fit"><a href="{{ page.images }}/added-door.jpg"><img src="{{ page.images }}/added-door.jpg" alt="An a picture of the server cabinet basically all finished, besides minor touchups"></a></span></div>
-</div>
-</div>
+{% capture page_markdown %} 
+![An image of all of the planks of wood completed, resting inside the in-progress cabinet](/assets/images/posts/server-cabinet/planks-all-cut.jpg){:class="image fit photo"}
+![Adding a cross-brace to the server cabinet for improved structural support](/assets/images/posts/server-cabinet/structure.jpg){:class="image fit photo"}
+![A picture showing the cabinet being treated with wood-stain](/assets/images/posts/server-cabinet/added-treatment.jpg){:class="image fit photo"}
+![Looking through the cabinet](/assets/images/posts/server-cabinet/first-side.jpg){:class="image fit photo"}
+![A picture of the almost finished server cabinet, just missing doors](/assets/images/posts/server-cabinet/planked.jpg){:class="image fit photo"}
+![An a picture of the server cabinet basically all finished, besides minor touchups](/assets/images/posts/server-cabinet/added-door.jpg){:class="image fit photo"}
+{% endcapture %}
+{% include photo-gallery.html %}
 
 ## Finally Finished!
-<div class="box alt">
-<div class="row gtr-uniform">
-	<div class="col-7"><span class="image fit"><a href="{{ page.images }}/server-cabinet.jpg"><img src="{{ page.images }}/server-cabinet.jpg" alt="Inside the server cabinet, showing the cross brace and all the internal walls"></a></span></div>
+{% capture page_markdown %} 
+![Inside the server cabinet, showing the cross brace and all the internal walls](/assets/images/posts/server-cabinet/server-cabinet.jpg){:class="image fit photo"}
+![The server cabinet in-use, with the hug server and a UPS mounted inside](/assets/images/posts/server-cabinet/at-home.jpg){:class="image fit photo"}
+{% endcapture %}
+{% include photo-gallery.html %}
 
-	<div class="col-5"><span class="image fit"><a href="{{ page.images }}/at-home.jpg"><img src="{{ page.images }}/at-home.jpg" alt="The server cabinet in-use, with the hug server and a UPS mounted inside"></a></span></div>
-</div>
-</div>
 
 ----
 

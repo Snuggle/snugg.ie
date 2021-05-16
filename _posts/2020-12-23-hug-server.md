@@ -60,7 +60,7 @@ because it *'had a bent CPU2 socket pin'* and the seller wasn't sure if the seco
 
 ### Now to make it smart, to hunt some CPU and memory!
 
-<span class="image right"><a href="{{ page.images }}/cpu.webp"><img src="{{ page.images }}/cpu.webp" alt=""></a></span>
+![A picture showing the frame being completed with the server mounted inside using rails](/assets/images/posts/hug-server/cpu.webp){:class="image right"}
 
 
 As very few people actually have Haswell server motherboards, the CPUs sell for relatively cheap! I managed to purchase two Intel Xeon E5-2630 v3's for £30/ea, giving me a total of 32 threads at 2.4–3.2 GHz for £60.
