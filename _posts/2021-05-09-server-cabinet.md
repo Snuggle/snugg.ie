@@ -5,7 +5,6 @@ title: My Server Cabinet/Coffee Table
 subtitle: "Let's build a DIY Server Cabinet Together!"
 image: server-cabinet.jpg
 date: 2021-05-09 17:49:00
-images: /assets/images/posts/server-cabinet
 ---
 <!-- Content -->
 
@@ -49,10 +48,12 @@ Most of this project was just finding things that were lying around and using th
 
 
 {% capture page_markdown %} 
-![A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top.](/assets/images/posts/server-cabinet//ServerCabinetConcept.svg){:class="image fit photo"}
-![A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain.](/assets/images/posts/server-cabinet//test-width.jpg){:class="image fit photo"}
-![Another test fit of the server but this time within a shed](/assets/images/posts/server-cabinet//test-fit.jpg){:class="image fit photo"}
-![Three basic sticks of wood which are beginning a frame](/assets/images/posts/server-cabinet//basic-frame.jpg){:class="image fit photo"}
+![A quick sketch of the server cabinet/coffee table idea](/assets/images/posts/server-cabinet/sketch-1.jpg){:class="image fit photo"}
+![A slightly refined sketch of what the cabinet would look like with actual proposed measurements](/assets/images/posts/server-cabinet/sketch-2.jpg){:class="image fit photo"}
+![A diagram showing the concept of the cabinet. Showing a hinged door, a removable back, mounting posts and a coffee cup placed on top.](/assets/images/posts/server-cabinet/ServerCabinetConcept.svg){:class="image fit photo"}
+![A test fit of the frame against the server. The server is also covered in a plastic bag to prevent damage from rain.](/assets/images/posts/server-cabinet/test-width.jpg){:class="image fit photo"}
+![Another test fit of the server but this time within a shed](/assets/images/posts/server-cabinet/test-fit.jpg){:class="image fit photo"}
+![Three basic sticks of wood which are beginning a frame](/assets/images/posts/server-cabinet/basic-frame.jpg){:class="image fit photo"}
 {% endcapture %}
 {% include photo-gallery.html %}
 
@@ -104,5 +105,5 @@ Would I do it again? **Yes!**
 
 
 ## And 12 months later...	
-![A final picture of how things have progressed after twelve months, showing the original UPS and server mounted within, as well as a bluetooth temperature sensor, a PDU, a Unifi Security Gateway Pro and a bunch of cables]({{ page.images }}/server-cabinet-filled.jpg){:class="image fit"}
+![A final picture of how things have progressed after twelve months, showing the original UPS and server mounted within, as well as a bluetooth temperature sensor, a PDU, a Unifi Security Gateway Pro and a bunch of cables](/assets/images/posts/server-cabinet/server-cabinet-filled.jpg){:class="image fit"}
 
