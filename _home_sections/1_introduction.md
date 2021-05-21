@@ -8,7 +8,7 @@ title: Introduction
             <header class="major">
                 <h2>Who are you?</h2>
             </header>
-            <p>Heya, my name's Evie, but often known as Snuggle! 🙋🏽‍♀️ This is where all of my internet stuff lives — I love and get excited about almost anything cute. 🦔</p>
+            <p>Heya, my name's Evie, but often known as Snuggle! 🙋🏽‍♀️ This is where all of my internet stuff lives — I love and get excited about almost anything. 🦔</p>
             <ul class="actions">
                 <li><a href="https://snugg.ie/#where" class="button">Send me a message!</a></li>
             </ul>
