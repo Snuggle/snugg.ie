@@ -1,5 +1,5 @@
 ---
-layout: page-no-navbar
+layout: post
 lang-ref: generic-page
 title: My Server Cabinet/Coffee Table
 subtitle: "Let's build a DIY Server Cabinet Together!"
@@ -13,7 +13,11 @@ date: 2021-05-09 17:49:00
 
 -->
 
+{% capture page_markdown %}
 # My Server Cabinet/Coffee Table
+{% endcapture %}
+{% include header-major-special.html %}
+
 ## The Idea
 
 Now after [building a server](/posts/hug-server) for self-hosting things, there's no-where to put it! Most server cabinets that people can buy online are either _way too expensive_ or way too big 'n' heavy to ship properly. So, how could I make a cabinet of my own yet still make it functional?
