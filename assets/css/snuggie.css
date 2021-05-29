@@ -400,10 +400,6 @@ html {
 	transition: all ease-in 100ms;
   }
   
-  .card p {
-	color: #777;
-  }
-  
   .card h5 {
 	position: absolute;
 	bottom: 0;
