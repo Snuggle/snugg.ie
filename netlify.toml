@@ -2,4 +2,4 @@
 package = "netlify-plugin-a11y"
 
   [plugins.inputs]
-  resultMode = "warn" # is "error" by default
+  resultMode = "error" # is "error" by default
