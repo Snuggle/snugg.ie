@@ -82,6 +82,29 @@ body.force-theme-dark {
 	color: #636363;
 }
 
+#main .card .card-body h5 {
+	margin-top: 3rem;
+}
+
+
+#main.force-theme-dark .card {
+	background-color: #351223;
+
+	& .card-body {
+		h2 {
+			color: LavenderBlush;
+		}
+
+		h5 {
+			color: LavenderBlush;
+		}
+
+		p {
+			color: LavenderBlush;
+		}
+	}
+}
+
 #nav.force-theme-dark {
 	background-color: #7b1347;
 	color: LavenderBlush;
@@ -352,7 +375,7 @@ html {
 .cards {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: flex-start;
+	align-items: stretch;
 	justify-content: center;
   }
   
@@ -362,7 +385,6 @@ html {
 	position: relative;
 	background: #fff;
 	width: 24em;
-	height: 600px;
 	border-radius: 0.6em;
 	margin: 1em;
 	overflow: hidden;
@@ -387,7 +409,7 @@ html {
   
   .card img {
 	width: 100%;
-	height: 60%;
+	height: 40%;
 	object-fit: cover;
   }
   
