@@ -78,32 +78,6 @@ body.force-theme-dark {
 	background-image: url("images/overlay.png"), linear-gradient(45deg, #230313 15%, #640032 85%);
 }
 
-#main .card .card-body h2 {
-	color: #636363;
-}
-
-#main .card .card-body h5 {
-	margin-top: 3rem;
-}
-
-
-#main.force-theme-dark .card {
-	background-color: #351223;
-
-	& .card-body {
-		h2 {
-			color: LavenderBlush;
-		}
-
-		h5 {
-			color: LavenderBlush;
-		}
-
-		p {
-			color: LavenderBlush;
-		}
-	}
-}
 
 #nav.force-theme-dark {
 	background-color: #7b1347;
@@ -371,68 +345,3 @@ html {
 	position: relative;
 	margin-right: 1em;
 }
-
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: center;
-  }
-  
-  .card {
-	flex: 1;
-	min-width: 300px;
-	position: relative;
-	background: #fff;
-	width: 24em;
-	border-radius: 0.6em;
-	margin: 1em;
-	overflow: hidden;
-	cursor: pointer;
-	box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
-	transition: all ease 200ms;
-  }
-
-  .card-big {
-	  flex-basis: 40%;
-  }
-
-  
-  .card:hover {
-	transform: scale(1.03);
-	box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
-  }
-
-  .card a {
-	border-bottom: none;
-  }
-  
-  .card img {
-	width: 100%;
-	height: 40%;
-	object-fit: cover;
-  }
-  
-  .card h2 {
-	color: #222;
-	margin-top: -1rem;
-	line-height: 1.4;
-	font-size: 1.3em;
-	font-weight: 500;
-	transition: all ease-in 100ms;
-  }
-  
-  .card h5 {
-	position: absolute;
-	bottom: 0;
-	left: 1em;
-	color: #bbb;
-	font-weight: 700;
-	font-size: 0.7em;
-	letter-spacing: 0.04em;
-	text-transform: uppercase;
-  }
-  
-  .card-body {
-	padding: 1.2em;
-  }

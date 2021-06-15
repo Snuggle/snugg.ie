@@ -15,9 +15,9 @@ date: 2021-02-16 23:59:53
     {% for post in site.posts %}
     {% assign loopindex = forloop.index %}
     {% if loopindex == 1 %}
-      <div class="card card-big"><a href="{{ post.url }}"><img alt="{{ post.title }} - {{ post.subtitle }}" src="{{ site.url }}/assets/images/{{ post.url }}/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>- {{ post.date | date_to_string }}</h5></div></a></div>
+      <div class="card card-big"><a href="{{ post.url }}"><img alt="{{ post.title }} - {{ post.subtitle }}" src="{{ site.url }}/assets/images/{{ post.url }}/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>{{ post.date | date_to_string }}</h5></div></a></div>
     {% else %}
-      <div class="card card-small"><a href="{{ post.url }}"><img alt="{{ post.title }} - {{ post.subtitle }}" src="{{ site.url }}/assets/images/{{ post.url }}/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>- {{ post.date | date_to_string }}</h5></div></a></div>
+      <div class="card card-small"><a href="{{ post.url }}"><img alt="{{ post.title }} - {{ post.subtitle }}" src="{{ site.url }}/assets/images/{{ post.url }}/{{ post.image }}"><div class="card-body"><h2>{{ post.title }}</h2><p>{{ post.subtitle}}</p><h5>{{ post.date | date_to_string }}</h5></div></a></div>
     {% endif %}
     {% endfor %}
   </div>
