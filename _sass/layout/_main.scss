@@ -12,7 +12,8 @@
 
 		> .main {
 			@include padding(5em, 5em);
-			border-bottom: solid 1px _palette(invert, border);
+			// border-bottom: solid 1px _palette(invert, border); // Not sure why this was added but it adds a horrible line
+			// to the bottom of the page
 
 			&:first-child {
 				border-top: 0;
