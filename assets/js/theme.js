@@ -31,7 +31,7 @@ function reset_theme() {
 
 	if (document.getElementById("nav")) {
 		localStorage.removeItem('theme');
-		document.querySelector('nav').classList.forEach(className => {
+		[...document.querySelector('nav').classList].forEach((className, i) => {
 			document.getElementById('nav').classList.remove(className);
 		});
 	}
