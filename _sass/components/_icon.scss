@@ -19,6 +19,11 @@
 			display: none;
 		}
 
+		&.fallback {
+			width: 30px;
+			opacity: 65%;
+		}
+
 		&.major {
 			border: solid 1px;
 			display: inline-block;
