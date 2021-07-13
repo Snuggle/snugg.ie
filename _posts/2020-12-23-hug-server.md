@@ -10,7 +10,7 @@ images: /assets/images/posts/hug-server
 ---
 <!-- Content -->
 <div class="image main">
-	<img src="{{ site.url }}/assets/images/posts/{{ page.image }}" alt="">
+	<img src="{{ page.images }}/{{ page.image }}" alt="">
 </div>
 
 <script src="{{ 'assets/js/refresh-badges.js' | absolute_url }}"></script>
