@@ -3,7 +3,7 @@ layout: post
 lang-ref: generic-page
 title: Hug
 subtitle: "Let's look into Hug, the server running all the things..."
-image: hug-server.png
+image: hug-server.webp
 date: 2020-12-23 21:53:00
 redirect_from: /hug-server
 images: /assets/images/posts/hug-server
