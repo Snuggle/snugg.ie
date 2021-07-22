@@ -5,3 +5,4 @@ _site/
 .obsidian/
 .trash/
 .DS_Store
+*.icloud
