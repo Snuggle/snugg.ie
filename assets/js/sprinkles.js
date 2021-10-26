@@ -51,7 +51,7 @@ function getSeason(d) {
 			return 'halloween';
 		}
 		if (day >= 13 && day <= 30) {
-			changeLogo("/assets/images/sprinkles/vector/sprinkles-halloween.svg");
+			changeLogo("/assets/images/sprinkles/vector/sprinkles-halloween-ghost.svg");
 			return 'halloween season';
 		}
 	}
