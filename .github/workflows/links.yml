@@ -7,7 +7,18 @@ on:
     - cron: "00 18 * * *"
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the (production) site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && chmod a+w Gemfile.lock && jekyll build --config '_config.yml,.github/_production-config.yml' --drafts --future"
+
   linkChecker:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,6 +27,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.5.0
         with:
+          args: --verbose --no-progress './_site/*.md' './_site/*.html'
           format: markdown
         env:
           GITHUB_TOKEN: ${{secrets.GITPUB_TOKEN}}
