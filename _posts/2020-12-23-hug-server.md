@@ -42,7 +42,7 @@ Enter... Hug Server.
 ![Inside of server purchased](/assets/images/posts/hug-server/original.jpeg){:class="image right"}
 I ended up wandering upon an eBay listing for a Sandy Bridge server which was only £70.
 
-This was awesome! It included an 8-thread [Intel Xeon E3-1240](https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html) CPU plus an [Intel S1200BTL](https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html) motherboard. The most important part for me, though, was the [Ri-Vier RVS2-06A](https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html) chassis with **included rails** and a 12-bay hotswappable SAS/SATA backplane. This was perfect for building a custom server within, as there were no OEM or proprietary parts — I could fit any components I'd like because there weren't any weird form factors to think about. It even used a standard PSU.
+This was awesome! It included an 8-thread [Intel Xeon E3-1240](https://ark.intel.com/content/www/us/en/ark/products/52273/intel-xeon-processor-e3-1240-8m-cache-3-30-ghz.html) CPU plus an [Intel S1200BTL](https://ark.intel.com/content/www/us/en/ark/products/53557/intel-server-board-s1200btl.html) motherboard. The most important part for me, though, was the [Ri-Vier RVS2-06A](https://web.archive.org/web/20201204043130/https://www.ri-vier.eu/rivier-2u-12bay-chassis-with-sas-backplane-rvs206a-p-323.html) chassis with **included rails** and a 12-bay hotswappable SAS/SATA backplane. This was perfect for building a custom server within, as there were no OEM or proprietary parts — I could fit any components I'd like because there weren't any weird form factors to think about. It even used a standard PSU.
 
 ![Motherboard purchased, ASUS Z10PE-D8 WS](/assets/images/posts/hug-server/motherboard.jpeg){:class="image left"}
 
@@ -120,7 +120,7 @@ And... that's pretty much everything for now. More might be coming soon! (Includ
 ## A Relevant Tweet Appears! 🐦
 
 <div>
-	<blockquote class="twitter-tweet tw-align-center" data-theme="dark"><p lang="en" dir="ltr">Here is my finished server rack/coffee table! It&#39;s going to stay in the living room (Don&#39;t worry, it&#39;s quiet!) and then all of the server stuff rack mounts into a hidden, fancy coffee table! 👩‍💻📐🛠️ <a href="https://t.co/MFsAdPG5l7">pic.twitter.com/MFsAdPG5l7</a></p>&mdash; Snuggle 🧋❄️ (@EvieSnuggle) <a href="https://twitter.com/EvieSnuggle/status/1288936442736136205?ref_src=twsrc%5Etfw">July 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<blockquote class="twitter-tweet tw-align-center" data-theme="dark"><p lang="en" dir="ltr">Here is my finished server rack/coffee table! It&#39;s going to stay in the living room (Don&#39;t worry, it&#39;s quiet!) and then all of the server stuff rack mounts into a hidden, fancy coffee table! 👩‍💻📐🛠️ <a href="https://twitter.com/EvieSnuggle/status/1288936442736136205">pic.twitter.com/MFsAdPG5l7</a></p>&mdash; Snuggle 🧋❄️ (@EvieSnuggle) <a href="https://twitter.com/EvieSnuggle/status/1288936442736136205?ref_src=twsrc%5Etfw">July 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 {% endcapture %}
 {% include section-normal.html %}

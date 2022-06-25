@@ -101,7 +101,7 @@ Next we can start measuring things up. I would need two different types of plank
 
 This project was loads of fun and it's super useful, it's now in the middle of our living room and sees constant daily use, for multiple purposes! In terms of thermals, everything is pretty alright due to plenty of gaps all over. One thing to keep in mind though, is that noise needs to be kept to a minimum and you might even need to replace some of the fans inside of server components.
 
-And finally, thank you so much for all the help putting this together and sawing so much wood, [@cinnabyn](https://twitter.com/cinnabyn)!
+And finally, thank you so much for all the help putting this together and sawing so much wood, [@cinnabyn](https://mastodon.art/@cinnabyn)!
 
 
 Would I do it again? **Yes!**

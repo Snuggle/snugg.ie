@@ -33,6 +33,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.5.0
         with:
+          args: --exclude-mail --exclude '*mailto*' --verbose --progress '\''./**/*.md'\'' '\''./**/*.html'\'''
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITPUB_TOKEN}}
