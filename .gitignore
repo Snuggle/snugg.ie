@@ -6,3 +6,5 @@ _site/
 .trash/
 .DS_Store
 *.icloud
+result/*
+result
