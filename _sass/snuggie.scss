@@ -248,6 +248,43 @@ body.force-theme-light .toggle-theme-dark {
 	opacity: 0.5;
 }
 
+body {
+	font-size: 12pt;
+	font-weight: reset;
+}
+
+p a {
+	//#9b4c81;
+	// rgba(240, 117, 199, 0.2);
+	//#284b63;
+	//#8f9fa926;
+	@include vendor('transition', (
+		'color #{_duration(transition)} ease',
+		'border-bottom #{_duration(transition)} ease'
+	));
+	text-decoration: none;
+	border-bottom: none;
+	color: #632844;
+	background-color: #a98f9e26;
+	padding: 0 .1rem;
+	border-radius: 5px;
+	font-weight: _font(weight-bold);
+
+
+	&:hover {
+		border-bottom-color: transparent;
+	}
+}
+
+#nav ul li a {
+	background-color: inherit;
+}
+
+#footer a {
+	color: rgba(255,255,255,0.65);
+	background-color: inherit;
+}
+
 /* Fancy underline */
 /*.icon {
 	background-image: none;
