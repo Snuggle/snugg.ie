@@ -13,7 +13,7 @@ title: Introduction
             </div>
         </div>
     </div>
-    <footer class="major">
-            <a href="https://posts.snugg.ie" class="button primary">View All Posts</a>
+    <footer id="posts" class="major">
+            <a href="https://posts.snugg.ie" class="button primary">View Posts</a>
     </footer>
 </section>
