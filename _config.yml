@@ -1,5 +1,5 @@
 # Site settings
-title: beta.snugg.ie
+title: old.snugg.ie
 description: "Beep-boop. Beep-boop. Here is Evie Snuggle's (beta) site! &#127861;&nbsp;&#127800;"
 
 # Optional elements
@@ -30,7 +30,7 @@ plugins:
   - jekyll-sitemap
 
 # Publication settings
-url: "https://beta.snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://old.snugg.ie" # the base hostname & protocol for your site, e.g. http://example.com
 author: Evie Snuggle
 copyright:
   holder: Evie Snuggle
